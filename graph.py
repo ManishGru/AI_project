@@ -78,7 +78,7 @@ def plot_results(G, coloring, cost_history):
 class GraphColoringApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Graph Coloring with Optimal Color Selection")
+        self.title("Graph Coloring with Simulated Annealing")
         self.geometry("1000x800")
 
         self.create_widgets()
